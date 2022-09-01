@@ -1,115 +1,307 @@
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159411627-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-159411627-1');   
-    </script> -->
-    <!-- Caching Disabler-->
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Expires" content="-1">
-        <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
-    
-    
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <meta name="Description"
-        content="Ishan Sharma ishandeveloper Ishan Inc. Chandigarh, India www.ishandeveloper.com .NET | ML | AI | Python | UI/UX | App Developer | Flutter | Web Developer" />
-    <title>Ishan Sharma</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    <link rel="apple-touch-icon" href="assets/img/favicon.png">
-    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
-    <meta name="theme-color" content="#FFE1C4">
-    <script src="assets/js/app.js"></script>
-    <link rel="manifest" href="manifest.json">
+  <meta charset="utf-8">
+  <title>Great Lakes Golf Club</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+  <script type="text/javascript" src="js/materialize.min.js"></script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="red">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="darkred">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Great Lakes Golf Club">
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
 
-<body id="index-body" style="overflow: hidden;">
-    <div>
-        <nav class="nav-desk">
-            <center>
-                <div class="nav-logo">
-                    <a href="index.html"><img id="logo" src="assets/img/logo2.png"></a>
-                </div>
-                <div class="nav-items">
-                    <ul>
-                        <li><span><a href="about.html">About</a></span></li>
-                        <li><span><a href="work.html">Work</a></span></li>
-                        <li><span><a href="uses.html">Uses</a></span></li>
-                        <li><span><a href="contact.html">Contact</a></span></li>
-                    </ul>
-                </div>
+<body class="home">
 
-            </center>
-        </nav>
-        <div class="animated fadeIn row" style="width:100vw;animation-duration: 1.5s;">
-            <div class="col-md-6" id="left-hero">
-                <h1 class="hero-tag"><span class="typer" id="main" data-words="Hi, I'm Ishan." data-delay="100"
-                        data-deleteDelay="1000" data-loop="1" style="color:blue!important;"></span>
-                    &nbsp;</h1>
-                <p class="hero-des">I make elegantly professional <b>web</b> apps and <b>flutter</b> apps for a living
-                    and also design <b>user experiences</b>.
-                    If you want me to do any one of these for you, get in touch with me here.
-                </p>
-                <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-                <button class="animated bounce delay-4s learn-btn">
-                    Learn More
-                </button>
-                <a href="contact.html"><button class="contact-btn">
-                        Contact Me
-                    </button></a>
-                <div class="social-icons">
-                    <a target="_blank" href="mailto:ishandeveloper@outlook.com"><i class="fas fa-envelope"></i></a>
-                    <a target="_blank" href="https://instagram.com/developer.ishan"><i class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://hackerrank.com/ishandeveloper"><i
-                            class="fab fa-hackerrank"></i></a>
-                    <a target="_blank" href="https://github.com/ishandeveloper"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://linkedin.com/in/ishandeveloper"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
+<!-- Header Start -->
 
-            <div class="col-md-6" id="hero-right">
-                <img id="hero-img" src="assets/img/undraw_code_review_l1q9.svg">
-            </div>
+  <header>
+    <div class="sidenav-overlay"></div>
+    <div class="nav_menu">
+      <a href="index.html" class="logo d-flex">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000" class="bi bi-house-door" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+        </svg>
+        <img src="./images/Great-Lakes.png" alt="" class="img_fluid">
+      </a>
+      <div class="side_nav">
+        <a href="ordering.html" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 448 512"><path d="M221.6 148.7C224.7 161.3 224.8 174.5 222.1 187.2C219.3 199.1 213.6 211.9 205.6 222.1C191.1 238.6 173 249.1 151.1 254.1V472C151.1 482.6 147.8 492.8 140.3 500.3C132.8 507.8 122.6 512 111.1 512C101.4 512 91.22 507.8 83.71 500.3C76.21 492.8 71.1 482.6 71.1 472V254.1C50.96 250.1 31.96 238.9 18.3 222.4C10.19 212.2 4.529 200.3 1.755 187.5C-1.019 174.7-.8315 161.5 2.303 148.8L32.51 12.45C33.36 8.598 35.61 5.197 38.82 2.9C42.02 .602 45.97-.4297 49.89 .0026C53.82 .4302 57.46 2.303 60.1 5.259C62.74 8.214 64.18 12.04 64.16 16V160H81.53L98.62 11.91C99.02 8.635 100.6 5.621 103.1 3.434C105.5 1.248 108.7 .0401 111.1 .0401C115.3 .0401 118.5 1.248 120.9 3.434C123.4 5.621 124.1 8.635 125.4 11.91L142.5 160H159.1V16C159.1 12.07 161.4 8.268 163.1 5.317C166.6 2.366 170.2 .474 174.1 .0026C178-.4262 181.1 .619 185.2 2.936C188.4 5.253 190.6 8.677 191.5 12.55L221.6 148.7zM448 472C448 482.6 443.8 492.8 436.3 500.3C428.8 507.8 418.6 512 408 512C397.4 512 387.2 507.8 379.7 500.3C372.2 492.8 368 482.6 368 472V352H351.2C342.8 352 334.4 350.3 326.6 347.1C318.9 343.8 311.8 339.1 305.8 333.1C299.9 327.1 295.2 320 291.1 312.2C288.8 304.4 287.2 296 287.2 287.6L287.1 173.8C288 136.9 299.1 100.8 319.8 70.28C340.5 39.71 369.8 16.05 404.1 2.339C408.1 .401 414.2-.3202 419.4 .2391C424.6 .7982 429.6 2.62 433.9 5.546C438.2 8.472 441.8 12.41 444.2 17.03C446.7 21.64 447.1 26.78 448 32V472z"/></svg>
+          </span>
+          <span class="text">
+            Food & drink
+          </span>
+        </a>
+        <a href="#" class="menu_link scoring_item">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg>
+          </span>
+          <span class="text">
+            Scoring
+          </span>
+        </a>
+        <a href="#" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+          </span>
+          <span class="text">
+            Inforamtion
+          </span>
+        </a>
+        <a href="#" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 512 512"><path d="M472.8 168.4C525.1 221.4 525.1 306.6 472.8 359.6L360.8 472.9C351.5 482.3 336.3 482.4 326.9 473.1C317.4 463.8 317.4 448.6 326.7 439.1L438.6 325.9C472.5 291.6 472.5 236.4 438.6 202.1L310.9 72.87C301.5 63.44 301.6 48.25 311.1 38.93C320.5 29.61 335.7 29.7 344.1 39.13L472.8 168.4zM.0003 229.5V80C.0003 53.49 21.49 32 48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L410.7 218.7C435.7 243.7 435.7 284.3 410.7 309.3L277.3 442.7C252.3 467.7 211.7 467.7 186.7 442.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5L.0003 229.5zM112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112z"/></svg>
+          </span>
+          <span class="text">
+            Offers & events
+          </span>
+        </a>
+        <a href="#" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+          </span>
+          <span class="text">
+            Get help
+          </span>
+        </a>
+      </div>
+    </div>
 
-        </div>
+
+    <div class="container">
+      <div class="back_btn" onclick="history.back()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-chevron-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        </svg>
+      </div>
+      <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+
+      <div class="logo">
+        <a href="index.html">
+          <img src="./images/Great-Lakes.png" alt="Great Lakes Golf Club" class="img_fluid">
+        </a>
+      </div>
     </div>
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger">
-            <div></div>
+  </header>
+
+  <div class="round_setting">
+      <div class="card">
+        <div class="card_head border_b">
+          <h3 class="title">Round Settings</h3>
+          <div class="close_card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </div>
         </div>
-        <div class="menu">
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#" style="text-decoration: line-through;">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="work.html">Work</a></li>
-                        <li><a href="#">Uses</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+
+        <div class="card_body">
+          <h4 class="title">Round type</h4>
+          <div class="types d-flex check_group">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="type" id="holes">
+              <label class="form-check-label" for="holes">
+                18 holes
+              </label>
             </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="type" id="front">
+              <label class="form-check-label" for="front">
+                Front 9
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="type" id="back">
+              <label class="form-check-label" for="back">
+                Back 9
+              </label>
+            </div>
+          </div>
+
+          <h4 class="title">Start from hole</h4>
+          <select class="form-select" aria-label="Default select example">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+
+          <h4 class="title py_2">Golfers</h4>  
+          <div class="golfers">
+            <div class="golfer d-flex">
+              <div class="d-flex">
+                  <img src="./images/user.png" alt="" class="img-fluid">
+                  <h4 class="title">joel conner</h4>
+              </div>
+              <div class="edit_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-pencil" viewBox="0 0 16 16">
+                  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="golfer d-flex">
+              <div class="d-flex">
+                  <img src="./images/user.png" alt="" class="img-fluid">
+                  <h4 class="title">joel conner</h4>
+              </div>
+              <div class="edit_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-pencil" viewBox="0 0 16 16">
+                  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="golfer d-flex">
+              <div class="d-flex">
+                  <img src="./images/user.png" alt="" class="img-fluid">
+                  <h4 class="title">joel conner</h4>
+              </div>
+              <div class="edit_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-pencil" viewBox="0 0 16 16">
+                  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="#" class="btn add_golf"> + Add golfer</a>
+          <a href="#" class="btn play_golf"> Play golf</a>
+        </div>  
+      </div>
+  </div>
+
+<!-- Header End -->
+
+  <section class="banner relative">
+      <div class="banner_img">
+        <img src="./images/banner.jpg" alt="banner" class="img_fluid">
+      </div>
+      <div class="banner_con">
+        <div class="container">
+          <h1>Great Lakes Golf Course</h1>
+          <div class="text">Windsor,CO</div>
         </div>
+      </div>
+  </section>
+
+  <section class="menu">
+    <div class="container">
+      <div class="d-flex">
+        <a href="ordering.html" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 448 512"><path d="M221.6 148.7C224.7 161.3 224.8 174.5 222.1 187.2C219.3 199.1 213.6 211.9 205.6 222.1C191.1 238.6 173 249.1 151.1 254.1V472C151.1 482.6 147.8 492.8 140.3 500.3C132.8 507.8 122.6 512 111.1 512C101.4 512 91.22 507.8 83.71 500.3C76.21 492.8 71.1 482.6 71.1 472V254.1C50.96 250.1 31.96 238.9 18.3 222.4C10.19 212.2 4.529 200.3 1.755 187.5C-1.019 174.7-.8315 161.5 2.303 148.8L32.51 12.45C33.36 8.598 35.61 5.197 38.82 2.9C42.02 .602 45.97-.4297 49.89 .0026C53.82 .4302 57.46 2.303 60.1 5.259C62.74 8.214 64.18 12.04 64.16 16V160H81.53L98.62 11.91C99.02 8.635 100.6 5.621 103.1 3.434C105.5 1.248 108.7 .0401 111.1 .0401C115.3 .0401 118.5 1.248 120.9 3.434C123.4 5.621 124.1 8.635 125.4 11.91L142.5 160H159.1V16C159.1 12.07 161.4 8.268 163.1 5.317C166.6 2.366 170.2 .474 174.1 .0026C178-.4262 181.1 .619 185.2 2.936C188.4 5.253 190.6 8.677 191.5 12.55L221.6 148.7zM448 472C448 482.6 443.8 492.8 436.3 500.3C428.8 507.8 418.6 512 408 512C397.4 512 387.2 507.8 379.7 500.3C372.2 492.8 368 482.6 368 472V352H351.2C342.8 352 334.4 350.3 326.6 347.1C318.9 343.8 311.8 339.1 305.8 333.1C299.9 327.1 295.2 320 291.1 312.2C288.8 304.4 287.2 296 287.2 287.6L287.1 173.8C288 136.9 299.1 100.8 319.8 70.28C340.5 39.71 369.8 16.05 404.1 2.339C408.1 .401 414.2-.3202 419.4 .2391C424.6 .7982 429.6 2.62 433.9 5.546C438.2 8.472 441.8 12.41 444.2 17.03C446.7 21.64 447.1 26.78 448 32V472z"/></svg>
+          </span>
+          <span class="text">
+            Food & drink
+          </span>
+        </a>
+
+        <a href="#" class="menu_link border_a_x scoring_item">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg>
+          </span>
+          <span class="text">
+            Scoring
+          </span>
+        </a>
+        
+        <a href="information.html" class="menu_link">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+          </span>
+          <span class="text">
+            Information
+          </span>
+        </a>
+      
+      </div>
+      
     </div>
-    <div class="legal">
-        <a href="legal.html">legal</a>
+  </section>
+
+
+  <section class="offers_events">
+    <div class="container">
+      <div class="d-flex mb-4">
+        <h2 class="s_title">Offers and events</h2>
+        <a href="#" class="icon_circle d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#000" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="events">
+        <div class="event bg_black" style="background: url('./images/event-1.jpg') 100% no-repeat;">
+          <div class="content">
+            <h3 class=" ">Lorem ipsum dolor sit amet.</h3>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <a href="#" class="btn"> Learn more</a>
+          </div>
+        </div>
+
+        <div class="event bg_info" style="background: url('./images/event-2.jpg') 100% no-repeat;">
+          <div class="content">
+            <h3 class=" ">Lorem ipsum dolor sit amet.</h3>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <a href="#" class="btn"> Learn more</a>
+          </div>
+        </div>
+        
+        <div class="event bg_coral" style="background: url('./images/event-3.jpg') 100% no-repeat;">
+          <div class="content">
+            <h3 class=" ">Lorem ipsum dolor sit amet.</h3>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <a href="#" class="btn"> Learn more</a>
+          </div>
+        </div>
+
+        <div class="event bg_danger" style="background: url('./images/event-1.jpg') 100% no-repeat;">
+          <div class="content">
+            <h3 class=" ">Lorem ipsum dolor sit amet.</h3>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <a href="#" class="btn"> Learn more</a>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+  </section>
+
+
+  
+  <script src="js/jquery-min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/custon.js"></script>
+  
 </body>
-
 </html>
